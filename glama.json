@@ -1,0 +1,8 @@
+{
+  "$schema": "https://glama.ai/mcp/schema/v1/server.json",
+  "name": "hubspot-mcp",
+  "description": "MCP server for HubSpot CRM — 33 tools for contacts, companies, deals, pipelines, lists, marketing emails, forms, workflows, and properties.",
+  "license": "MIT",
+  "homepage": "https://github.com/ZLeventer/hubspot-mcp",
+  "runtime": "node"
+}
