@@ -1,9 +1,9 @@
 {
-  "name": "hubspot-mcp",
+  "name": "hubspot-marketing-mcp",
   "version": "1.0.0",
   "description": "MCP server for HubSpot CRM — 33 tools covering contacts, companies, deals, pipelines, lists, emails, forms, workflows, and properties",
   "type": "module",
-  "bin": { "hubspot-mcp": "dist/index.js" },
+  "bin": { "hubspot-marketing-mcp": "dist/index.js" },
   "files": ["dist", "README.md"],
   "scripts": {
     "build": "tsc",

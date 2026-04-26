@@ -1,4 +1,4 @@
-# hubspot-mcp
+# hubspot-marketing-mcp
 
 MCP server for HubSpot CRM — 33 tools covering contacts, companies, deals, pipelines, lists, marketing emails, forms, workflows, and properties.
 
@@ -94,7 +94,7 @@ MCP server for HubSpot CRM — 33 tools covering contacts, companies, deals, pip
   "mcpServers": {
     "hubspot": {
       "command": "npx",
-      "args": ["-y", "hubspot-mcp"],
+      "args": ["-y", "hubspot-marketing-mcp"],
       "env": {
         "HUBSPOT_ACCESS_TOKEN": "pat-na1-xxxxxxxxxxxx"
       }
@@ -106,7 +106,7 @@ MCP server for HubSpot CRM — 33 tools covering contacts, companies, deals, pip
 ### 2a. Configure Claude Code (CLI)
 
 ```bash
-claude mcp add hubspot -e HUBSPOT_ACCESS_TOKEN=pat-na1-xxxxxxxxxxxx -- npx -y hubspot-mcp
+claude mcp add hubspot -e HUBSPOT_ACCESS_TOKEN=pat-na1-xxxxxxxxxxxx -- npx -y hubspot-marketing-mcp
 ```
 
 ## Environment variables
